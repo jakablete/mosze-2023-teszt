@@ -5,14 +5,14 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[NELEMENTS];
-    std::cout << '1-100 ertekek duplazasa'
-    for (int i = 0;)
+    std::cout << "1-100 ertekek duplazasa"
+    for (int i = 0; I< N_ELEMENTS; i++)
     {
         b[i] = i * 2;
     }
-    for (int i = 0; i; i++)
+    for (int i = 0; i < N_ELEMENTS; i++)
     {
-        std::cout << "Ertek:"
+        std::cout << "Ertek:" << b[i]  << std::endl;
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag;
